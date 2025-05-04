@@ -25,12 +25,20 @@
   "homepage": "https://github.com/Ertytux/spks3tipfscache#readme",
   "description": "Save encoded m3u8 vídeos to S3 cache storage for save on ipfs later",
   "dependencies": {
+    "@nftstorage/ipfs-cluster": "^5.0.1",
+    "@web-std/fetch": "^4.2.1",
+    "@web-std/file": "^3.0.3",
+    "@web-std/form-data": "^3.1.0",
     "aws-sdk": "^2.1692.0",
+    "body-parser": "^2.2.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "fs": "^0.0.1-security",
     "helmet": "^8.1.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "url": "^0.11.4"
   },
   "devDependencies": {
     "@types/aws-sdk": "^0.0.42",
